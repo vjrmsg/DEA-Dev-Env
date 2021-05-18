@@ -1,0 +1,15 @@
+base:
+  project: RI_CrashData-project
+  random_state: 42
+  target_col: Severity
+
+data_source:
+  s3_source: data_given/RI_CrashData.csv
+
+load_data:
+  raw_dataset_csv: data/raw/RI_CrashData.csv
+
+split_data:
+  train_path: data/processed/train_RI_CrashData.csv
+  test_path: data/processed/test_RI_CrashData.csv
+  test_size: 0.2
