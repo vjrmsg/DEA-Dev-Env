@@ -1,4 +1,3 @@
-# third party packages
 dvc
 pandas
 pytest
@@ -6,3 +5,6 @@ tox
 flake8
 flask
 gunicorn
+geopy
+matplotlib
+folium
